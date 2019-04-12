@@ -33,7 +33,7 @@ Topic which permits subscribers receive all private messages sended to concrete 
 Topic which informs who is logging at the moment.
 
 **/topic/chat/logout**<br/>
-Topic which informs who is logout at the moment.
+Topic which informs who is disconnecting at the moment.
 
 ## Predefined users:
 
