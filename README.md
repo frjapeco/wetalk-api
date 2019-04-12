@@ -24,7 +24,7 @@ STOMP server URL (local environment example)
 Topic which gives all necessary data to boot the app.
 
 **/topic/chat/home**<br/>
-Topic which permits subscribers receive all messages sended to that channel.
+Topic which permits subscribers receive all messages sended to 'home' channel.
 
 **/user/queue/chat/private**<br/>
 Topic which permits subscribers receive all private messages sended to concrete user.
