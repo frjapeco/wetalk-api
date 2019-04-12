@@ -1,6 +1,6 @@
 # wetalk-server
 
-Backend server for wetalk chat application. It uses STOMP websocket protocol to achieve real time communication between server and subscribers.
+Backend server for wetalk chat application. It uses STOMP websocket protocol to achieve real time communication between server and subscribers. [More info about Spring & STOMP](https://docs.spring.io/spring/docs/5.0.0.BUILD-SNAPSHOT/spring-framework-reference/html/websocket.html#websocket-stomp-overview)
 
 ## Prerequisites
 
