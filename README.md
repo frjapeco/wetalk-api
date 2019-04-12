@@ -1,6 +1,6 @@
-# wetalk-api
+# wetalk-server
 
-Backend API for wetalk chat application. It uses STOMP websocket protocol to achieve real time communication between server and subscribers.
+Backend server for wetalk chat application. It uses STOMP websocket protocol to achieve real time communication between server and subscribers.
 
 ## Prerequisites
 
