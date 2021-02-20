@@ -50,6 +50,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                     .antMatchers("/auth/login").permitAll()
                     .antMatchers("/chat/**").permitAll()
                     .antMatchers("/h2/**").permitAll()
+                    .antMatchers("/actuator/**").permitAll()
                     .anyRequest().authenticated()
                 .and()
                 .addFilterBefore(jwtAuthenticationFilter(), UsernamePasswordAuthenticationFilter.class)
